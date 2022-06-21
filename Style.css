@@ -1,0 +1,158 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+*{
+    margin: 0;
+}
+@media(max-width:618px){
+    .container{
+        max-width: none;
+    }
+    .info{
+        display: block;
+        text-align: center;
+    }
+    }
+
+body {
+    font-family: 'Roboto' , sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    background: rgb(219, 219, 219);
+    color: #2c2525;
+}
+.container{
+    max-width: 600px;
+    margin: auto;
+    padding-top: 20px;
+    background: rgba(255, 255, 255, 0.753);
+    padding-left: 20px;
+}
+a{
+    width: 100px;
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    margin: 1px auto;
+}
+.info{
+    width: 540px;
+    margin-bottom: 20px;
+    display: flex;
+}
+.discription{
+    margin-left: 20px;
+}
+.info p {
+    font-style: italic;
+    color: #86898f;
+    margin: 10px 0; 
+}
+h2 {
+    color: #3f0b0b;
+}
+.card{
+    border: 1px solid rgb(29, 17, 75);
+    color: black;
+    width: 540px;
+    border-radius: 20px;
+    padding: 10px 15px;
+    margin: 15px auto;
+}
+.bg-rose{
+    background-color: rosybrown;
+
+}
+.bg-green{
+
+    background: lightgreen;
+}
+.bg-purple{
+    background: rgb(165, 108, 165);
+}
+img{
+    display: block;
+    width: 200px;
+    border-radius: 20px;
+    box-shadow: 4px 4px 14px rgba(0, 0, 0, 0.25);
+}
+.btn{
+    background: black;
+    color: white;
+    padding: 3px 2px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    border: none;
+    font-family: inherit;
+}
+.btn:hover{
+    color: skyblue;
+    opacity: 0.8;
+}
+.btn:active{
+    color:blue ;
+}
+a:visited{
+    color: blue;
+}
+a:hover{
+    text-decoration: underline;
+}
+a:active{
+    color: red;
+}
+.card ol li{
+    font-weight: 500;
+    padding: 2px 5px;
+    margin: 3px 5px;  
+}
+.card ol{
+    height: 90px;
+    padding: 10px 10px;
+}
+.card ol li:hover{
+    cursor: pointer;
+    width: 220px;
+    background:rgb(230, 224, 224);
+    border: 1px solid rgba(0, 0, 0, 0.404);
+    border-radius: 5px;
+    color: rgba(35, 16, 199, 0.911);
+}
+/* .card table tbody tr td:nth-child(even){
+    color: #cac3c3;
+} */
+.input input{
+     margin-bottom: 5px;
+}
+.card th{
+    padding: 5px 10px;
+}
+.card td{
+    padding: 5px 10px;
+}
+.card th:hover{
+    cursor: pointer; 
+    background: white;
+    border-radius: 10px;
+}
+.card td:hover{
+    cursor: pointer;
+    background: rgba(255, 255, 255, 0.699);
+    border-radius: 5px;
+}
+.display-row{
+    display: flex;
+}
+.input .display{
+    padding-right:10px ;
+    width: 50%;
+}
+.display label{
+    display: block;
+}
+.display input,
+.display textarea{
+    width: 100%;
+    border: none;
+    padding: 0;
+    outline: none;
+}
+
